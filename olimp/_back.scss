@@ -1,0 +1,37 @@
+.back {
+    height: 380px;
+    background-image: url(..//img/Rectangle\ \(6\).png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &__text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 53px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__col_img {
+        margin-top: 170px;
+        max-width: 970px;
+        align-items: center;
+        margin-left: 400px;
+        
+    }
+  
+     
+}

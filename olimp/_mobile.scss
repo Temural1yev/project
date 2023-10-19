@@ -1,0 +1,60 @@
+.mobile {
+    height: 510px;
+    max-width: 1940px;
+
+    &__title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 53px;
+        text-align: center;
+        color: #323232;
+        max-width: 739px;
+        margin-left: 410px;
+    }
+
+    &__text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        color: #999999;
+        margin-top: 20px;
+        max-width: 730px;
+        margin-left: 410px;
+    }
+
+    &__row {
+        display: flex;
+        align-items: center;
+        padding: 40px;
+        margin-left: 280px;
+        margin-top: 40px;
+
+    }
+
+    &__btns {
+        background: #4985FF;
+        box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+        border-radius: 30px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        outline: 0;
+        padding: 13px 36px;
+        border: 0;
+        cursor: grab;
+        margin-left: 680px;
+        margin-top: 40px;
+        
+    }
+
+
+}

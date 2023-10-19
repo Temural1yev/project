@@ -1,0 +1,54 @@
+.wiew {
+    height: 600px;
+
+    &__text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 53px;
+        text-align: center;
+        color: #000000;
+        margin-top: 50px;
+    }
+
+    &__title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        color: #999999;
+        max-width: 730px;
+        margin-left: 390px;
+        margin-top: 10px;
+    }
+
+    &__img {
+        margin: 0 5px;
+    }
+    &__imgs{
+        margin-left: 370px;
+        margin-top: 80px;
+    }
+
+    &__btn {
+        background: #4985FF;
+        box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+        border-radius: 30px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        border: 0;
+        cursor: grab;
+        outline: 0;
+        padding: 13px 25px;
+        margin-left: 690px;
+        margin-top: 110px;
+    }
+}

@@ -1,0 +1,50 @@
+.header {
+    height: 100vh;
+    background-image: url(../img/Rectangle\ \(6\).png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &__content {
+        height: calc(100vh - 80px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    &__text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        max-width: 175px;
+    }
+
+    &__title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 64px;
+        text-align: center;
+        color: #FFFFFF;
+        max-width: 829px;
+    }
+
+    &__btn {
+        background: #4985FF;
+        box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+        border-radius: 30px;
+        border: 0;
+        outline: 0;
+        padding: 13px 36px;
+        margin-top: 50px;
+        color: #FFFFFF;
+        cursor: grab;
+    }
+    
+}

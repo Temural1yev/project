@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li {
+    list-style: none;
+}
+.container{
+    width: 100%;
+    max-width: 1240px;
+    padding: 0 20px; 
+    margin: 0 auto;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+@import "_header.scss";
+@import "_navbar.scss";
+@import "_mobile.scss";
+@import "_our.scss";
+@import "_elain.scss";
+@import "_wiew.scss";
+@import "_back.scss";
+
+
+
+
+
+
+
